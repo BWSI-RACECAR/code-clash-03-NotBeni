@@ -41,7 +41,7 @@ class Solution:
         ary2 = str2.split(" ")
         final_ary = []
         for i in ary1:
-            if i not in final_ary and '\r' not in n:
+            if i not in final_ary and '\r' not in i:
                 final_ary.append(i)
         for n in ary2:
             if n not in final_ary and '\r' not in n:
